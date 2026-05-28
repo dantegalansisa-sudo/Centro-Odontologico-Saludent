@@ -33,7 +33,8 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 1, ease: [0.76, 0, 0.24, 1] }}
         >
-          <img src="/imagenes/saludent/logo.png" alt="Centro Odontológico Saludent" style={{ maxHeight: '110px', maxWidth: '300px', width: 'auto', objectFit: 'contain' }} />
+          <span className="hero__brand-name">Centro</span>
+          <span className="hero__brand-name hero__brand-name--accent">Saludent</span>
         </motion.div>
 
         <motion.div
